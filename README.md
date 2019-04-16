@@ -40,3 +40,7 @@ The MIT License
 1. If you want to change version number, run `npm version <update_type>`. [see more](https://docs.npmjs.com/updating-your-published-package-version-number)
 2. Run `npm publish`.
 3. Go to your package page to check the update.
+
+## Some Tips
+- [About license](https://opensource.org/licenses)
+- [About versioning](https://en.wikipedia.org/wiki/Software_versioning)
