@@ -10,5 +10,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jingyi Ding",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/dingjy94/case_converter_fcc_sample.git"
+  },
+  "homepage": "https://github.com/dingjy94/case_converter_fcc_sample"
 }

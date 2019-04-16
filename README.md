@@ -26,6 +26,24 @@ The MIT License
 3. Creat a `README.md` file to explain your package.
 4. Write your code and export the methods you want user to call.
 
+## Add Github Respository (Optional)
+1. You can add your github respository into `package.json`. The url should be a publicly available url that can be handed directly to a VCS program without any modification.
+
+```JSON
+"repository": {
+  "type" : "git",
+  "url" : "https://github.com/<user_name>/<repo_name>.git"
+}
+
+// or you can use shortcut
+"repository": "github:user/repo"
+```
+
+2. You can also set the repository page as your module's homepage.
+```JSON
+"homepage": "https://github.com/<user_name>/<repo_name>#readme"
+```
+
 ## Publish
 1. Sign up on [npm](https://www.npmjs.com/).
 2. run `npm login` or `npm adduser`, follow instruction.
@@ -37,7 +55,7 @@ The MIT License
 2. Whenever your need to use the module use `require` to import the module.
 
 ## Update
-1. If you want to change version number, run `npm version <update_type>`. [see more](https://docs.npmjs.com/updating-your-published-package-version-number)
+1. Run `npm version <update_type>` to change the version. [see more](https://docs.npmjs.com/updating-your-published-package-version-number)
 2. Run `npm publish`.
 3. Go to your package page to check the update.
 
