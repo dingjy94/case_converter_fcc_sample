@@ -1,0 +1,14 @@
+{
+  "name": "case_converter_fcc_sample",
+  "version": "1.1.0",
+  "description": "Simple tool used to converts text to specific case",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jingyi Ding",
+  "license": "MIT"
+}
